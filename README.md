@@ -1,4 +1,4 @@
-# AWS Infrastructure Creation using Terraform old version by Security Guru, and new version of tf by Jeferson Rocha.
+# AWS Infrastructure Creation using Terraform old version by Security Guru, and new version of by Jeferson Rocha.
 
 ## Step 0: Initialize Terraform
 ```
@@ -7,12 +7,12 @@ terraform init
 
 ## Step 1: Plan Resources
 ```
-terraform plan -var-file="vars/dev-west-2.tfvars"
+ terraform plan -out tfplan
 ```
 
 ## Step 2: Apply Resources
 ```
-terraform apply -var-file="vars/dev-west-2.tfvars"
+terraform apply
 ```
 
 ## Step 3: SSH to instance to get the admin password
