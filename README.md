@@ -12,7 +12,7 @@ terraform init
 
 ## Step 2: Apply Resources
 ```
-terraform apply tfpla 
+terraform apply tfplan
 
 ```
 
