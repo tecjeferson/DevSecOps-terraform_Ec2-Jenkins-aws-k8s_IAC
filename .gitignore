@@ -9,7 +9,6 @@
 crash.log
 crash.*.log
 
-aws-server.pem
 *.pem
 *.zip
 
