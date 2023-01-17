@@ -12,7 +12,8 @@ terraform init
 
 ## Step 2: Apply Resources
 ```
-terraform apply
+terraform apply tfpla 
+
 ```
 
 ## Step 3: SSH to instance to get the admin password
